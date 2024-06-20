@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createStoreItem",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "itemToStore",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Simple Storehouse/Storehouse.sol": "Storehouse"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Simple Storehouse/SimpleStorage.sol": {
+			"keccak256": "0x2d2e50ac8aaf407ee48d307f550b2276337de9e825d10c3779f22cc28a642113",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b59335c26debbb6fbda0129b64a508cd47f89ef676e71eacb3c5b9bab6d7c398",
+				"dweb:/ipfs/QmZLQPMiZ7wDyWHbXSSo1qize6JH7UokaLXELEVkaitjxv"
+			]
+		},
+		"Simple Storehouse/Storehouse.sol": {
+			"keccak256": "0x4f3f7ec1b35bcc12807dc86ecbb5dcf1da338b201d0eb7bc5419d62d66c175ad",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b3aab363502d7947458b44f11631d894266eb4080137573f3d3301bf9ec8617a",
+				"dweb:/ipfs/QmczWAyR1J1JuV3qh8UNZUMdUFHEWnrSi8fiEXdvv5EHhf"
+			]
+		}
+	},
+	"version": 1
+}
