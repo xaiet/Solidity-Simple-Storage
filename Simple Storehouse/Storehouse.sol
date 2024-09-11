@@ -8,7 +8,7 @@ contract Storehouse{
     function createStoreItem() public returns(uint256){
         SimpleStorage sS = new SimpleStorage();
         storageArray.push(sS);
-        return storageArray.length -1;
+        return storageArray.length-1;
     }
     function getValue(uint256 index) public view returns(uint256){
         return storageArray[index].pullItem();
